@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perpustakaan Digital</title>
+    <link href="style.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="navContainer">
+            <a href="#" class="navLogo" >
+                <i class='bx bx-library'></i>
+                E<span>-</span>Libra
+            </a>
+            <div class="navMenu" >
+                <ul class="navList">
+                    <li class="navItem">
+                        <a href="#about" class="navLink">
+                            <i class='bx bx-home-alt-2'></i>
+                            <span>About</span>
+                        </a>
+                    </li>
+                    <li class="navItem">
+                        <a href="#product" class="navLink">
+                            <i class='bx bx-book-open'></i>
+                            <span>Product</span>
+                        </a>
+                    </li>
+                    <li class="navItem">
+                        <a href="#profile" class="navLink">
+                            <i class='bx bx-user-circle'></i>
+                            <span>Profile</span>
+                        </a>
+                    </li>
+                    <li class="navItem">
+                        <a href="#footer" class="navLink">
+                            <i class="bx bx-phone" ></i>
+                            <span>Contact</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="main" id="main">
+        <article class="about" id="about">
+            <section class="aboutText" >
+                <h1 class="aboutTitle">
+                    Welcome to E - Libra
+                </h1>
+                <h3 class="aboutSubtitle" >
+                    E-Libra is digital library
+                </h3>
+                <p class="aboutDescription" >
+                    Choose among free epub and Kindle eBooks,
+                    download them or read them online.
+                    Thousands of volunteers digitized and 
+                    diligently proofread the eBooks,
+                    for you to enjoy.
+                </p>
+            </section>
+            <section class="aboutSearch">
+                <input type="search" class="search" placeholder="Search book name...">
+                <button type="submit" class="searchButton" >Search</button>
+            </section>
+            <section class="aboutInfo">
+                <div class="bookTotal" >
+                    <h2>100<span>+</span></h2>
+                    <P>Books</P>
+                </div>
+                <div class="bookViews">
+                    <h2>100K<span>+</span></h2>
+                    <p>Views</p>
+                </div>
+                <div class="bookPrize">
+                    <H2>FREE</H2>
+                    <p>No need to pay</p>
+                </div>
+            </section>
+            <section class="aboutImg">
+                <figure class="aboutImgCard">
+                    <img src="/Book images/book 4.jpg" >
+                </figure>
+            </section>
+        </article>
+        <article class="booksContainer" id="product">
+            <div class="booksSlider">
+                <section class="bookItem" >
+                    <figure class="bookItemCard" >
+                        <img src="/Book images/book 1.jpg" alt="book1">
+                        <figcaption>Madame Thérèse by <br><cite>Erckmann-Chatrian</cite></figcaption>
+                    </figure>
+                </section>
+                <section class="bookItem" >
+                    <figure class="bookItemCard" >
+                        <img src="/Book images/book 2.jpg" alt="book2">
+                        <figcaption>Portugallian keisari : Kertomus Vermlannista by <br><cite>Selma Lagerlöf</cite></figcaption>
+                    </figure>
+                </section>
+                <section class="bookItem" >
+                    <figure class="bookItemCard" >
+                        <img src="/Book images/book 3.jpg" alt="book3">
+                        <figcaption>Näkinkenkä : Runoja by <br><cite>Ilmari Pimiä</cite></figcaption>
+                    </figure>
+                </section>
+                <section class="bookItem" >
+                    <figure class="bookItemCard" >
+                        <img src="/Book images/book 4.jpg" alt="book4">
+                        <figcaption>Œuvres complètes de Victor Hugo : Poésie VII by <br><cite>Victor Hugo</cite></figcaption>
+                    </figure>
+                </section>
+                <section class="bookItem" >
+                    <figure class="bookItemCard" >
+                        <img src="/Book images/book 5.jpg" alt="book5">
+                        <figcaption>History of the United States of America, Volume 6 (of 9) :<br><cite>James Madison</cite></figcaption>
+                    </figure>
+                </section>
+                <section class="bookItem" >
+                    <figure class="bookItemCard" >
+                        <img src="/Book images/book 6.jpg" alt="book6">
+                        <figcaption>The Layton Court mystery by <br><cite>Anthony Berkeley</cite></figcaption>
+                    </figure>
+                </section>
+                <section class="bookItem" >
+                    <figure class="bookItemCard" >
+                        <img src="/Book images/book 7.jpg" alt="book7">
+                        <figcaption>Jewish fairy stories by <br><cite>Beatrice Hirschfeld and Gerald Friedlander</cite></figcaption>
+                    </figure>
+                </section>
+                <section class="bookItem" >
+                    <figure class="bookItemCard" >
+                        <img src="/Book images/book 8.jpg" alt="book8">
+                        <figcaption>The face of China by <br><cite>Kemp</cite></figcaption>
+                    </figure>
+                </section>
+                <section class="bookItem" >
+                    <figure class="bookItemCard" >
+                        <img src="/Book images/book 9.jpg" alt="book9">
+                        <figcaption>The Irish Guards in the Great War by <br><cite>Kipling</cite></figcaption>
+                    </figure>
+                </section>
+            </div>
+            <section class="bookButton">
+                <button id="prevSlide" class="slideButton">
+                    <i class='bx bxs-chevron-left'></i>
+                </button>
+                <button id="nextSlide" class="slideButton">
+                    <i class='bx bxs-chevron-right'></i>
+                </button>
+            </section>
+        </article>
+    </main>
+    <aside class="aside">
+        <article class="profileCard" id="profile">
+            <div class="profileCardCotainer" >
+                <img src="/profile-Picture.png" alt="profileImg">
+                <div class="profileInfo" >
+                    <section>
+                        <h3>Nama</h3>
+                        <p>Vega Setiawan</p>
+                    </section>
+                    <section>
+                        <h3>Username</h3>
+                        <p>jetezh1622</p>
+                    </section>
+                    <section>
+                        <h3>Age</h3>
+                        <p>20</p>
+                    </section>
+                </div>
+            </div>
+        </article>
+    </aside>
+    <footer class="footer">
+        <div class="contact" id="footer">
+            <article class="emailForm">
+                <form>
+                    <label for="email">E-mail</label>
+                    <input type="email" placeholder="vegasetiawan1603@gmail.com" id="email" >
+                    <label for="textArea">Message</label>
+                    <textarea placeholder="Write a message..." id="textArea"></textarea>
+                    <button class="emailButton">Send</button>
+                </form>
+            </article>
+            <article class="socialMedia">
+                <h3 class="socialMediaTitle" >
+                    Social Media
+                </h3>
+                <div class="socialMediaList" >
+                    <a href="" class="socialMediaLink">
+                        <i class='bx bxl-github' ></i>
+                        <span>Github</span>
+                    </a>
+                    <a href="" class="socialMediaLink">
+                        <i class='bx bxl-instagram' ></i>
+                        <span>Instagram</span>
+                    </a>
+                    <a href="" class="socialMediaLink">
+                        <i class='bx bxl-linkedin-square' ></i>
+                        <span>linkedin</span>
+                    </a>
+                </div>
+            </article>
+        </div>
+        <div class="policy">
+            &copy; Vega Setiawan 2024.
+        </div>
+    </footer>
+    <script src="script.js" ></script>
+</body>
+</html>
